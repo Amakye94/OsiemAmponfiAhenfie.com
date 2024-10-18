@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Styling the gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between images, fixed the spacing */
+}
+
+/* Styling individual photo blocks */
+.photo-container {
+    border: 2px solid #ccc;
+    padding: 5px;  /* Reduced padding to make the image larger */
+    max-width: 200px; /* Set a maximum width for each image block */
+    text-align: center;
+    background-color: rgb(8, 99, 28);
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Labeling below the image */
+.photo-label {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
